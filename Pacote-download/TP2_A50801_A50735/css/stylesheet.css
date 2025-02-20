@@ -1,0 +1,133 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mesaDeJogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 860px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: -20px;
+    gap: 0px; 
+}
+
+
+#dealer-cards img{
+    height: auto;
+    width: 105px;
+    margin: 1px;
+}
+
+#player-cards img{
+    height: auto;
+    width: 105px;
+    margin: 1px;
+}
+
+.gameButt {
+    background-color: rgb(213, 4, 4);
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+}
+#results{
+    font-size: medium;
+}
+
+body {
+    background-image: url('img/png/mesablackjack.jpeg');
+    background-size: 1603px 904px;
+    background-repeat: no-repeat;
+    background-position: -35px -40px;
+}
+
+/* Estilo para centralizar o título no topo */
+.header-title {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 10; /* Mantém o título sobre outros elementos */
+}
+
+.header-title h1 {
+    color: #FFD700;
+    font-size: 55px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    font-family: 'Bungee Spice', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Young Serif', serif;
+}
+
+
+/*"Dealer", "You"*/
+.section-title {
+    color: #FFD700;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Bungee Spice', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Young Serif', serif;
+}
+
+#Card {
+    background-color: #25da1800; /* Cor de fundo azul */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    border: none; /* Remove a borda */
+    margin: 10px; /* Margem externa para espaçamento */
+    padding: 5px 10px; /* Espaçamento interno */
+    font-size: 25px; /* Tamanho da fonte */
+    border-radius: 10px; /* Borda arredondada */
+}
+
+#stand {
+    /* Estilos do botão Stand */
+    background-color: #ffd90000; /* Cor de fundo verde */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    border: none; /* Remove a borda */
+    margin: 10px; /* Margem externa para espaçamento */
+    padding: 5px 10px; /* Espaçamento interno */
+    font-size: 25px; /* Tamanho da fonte */
+    border-radius: 10px; /* Borda arredondada */
+}
+
+#new_game {
+    /* Estilos do botão New Game */
+    background-color: #17a3b800; /* Cor de fundo azul-clara */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    border: none; /* Remove a borda */
+    margin: 10px; /* Margem externa para espaçamento */
+    padding: 5px 10px; /* Espaçamento interno */
+    font-size: 25px; /* Tamanho da fonte */
+    border-radius: 10px; /* Borda arredondada */
+}
+
+#help {
+    /* Estilos do botão New Game */
+    background-color: #17a3b800; /* Cor de fundo azul-clara */
+    color: rgb(5, 60, 105); /* Cor do texto */
+    border: none; /* Remove a borda */
+    margin: 10px; /* Margem externa para espaçamento */
+    padding: 5px 10px; /* Espaçamento interno */
+    font-size: 25px; /* Tamanho da fonte */
+    border-radius: 10px; /* Borda arredondada */
+}
+
+#results {
+    color: #FFD700;
+    font-size: 30px;
+    font-family: 'Bungee Spice', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Young Serif', serif;
+    margin-top: 0px;
+    min-height: 40px; /* Define uma altura mínima para reservar espaço */
+}
+
+
+
